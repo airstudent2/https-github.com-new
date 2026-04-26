@@ -18,7 +18,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.hhst.litube"
+        applicationId = "com.rohit.acsyt"
         minSdk = 26
         targetSdk = 36
         versionCode = 213
