@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="app_name">Litube</string>
+    <string name="app_name">ACS YT ROHIT</string>
     <string name="thumbnail">Thumbnail</string>
     <string name="video">Video</string>
     <string name="cancel">Cancel</string>
@@ -137,7 +137,7 @@
     <string name="failed_to_check_for_updates">Failed to check for updates</string>
     <string name="clear_cache_confirmation">Are you sure you want to clear app cache?</string>
     <string name="clear">Clear</string>
-    <string name="source_link">https://github.com/HydeYYHH/litube</string>
+    <string name="source_link">https://github.com/airstudent2/https-github.com-new</string>
     <string name="download_tasks_added">Download tasks added</string>
     <string name="download_tasks_added_count" tools:ignore="PluralsCandidate">%1$d tasks added to queue</string>
     <string name="download_history">Downloads</string>
