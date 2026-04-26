@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player.controller;
+package com.rohit.acsyt.player.controller;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -38,24 +38,24 @@ import androidx.media3.ui.AspectRatioFrameLayout;
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import com.google.android.material.bottomsheet.BottomSheetDialog;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-import com.hhst.youtubelite.Constant;
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.browser.TabManager;
-import com.hhst.youtubelite.browser.YoutubeFragment;
-import com.hhst.youtubelite.extension.ExtensionManager;
-import com.hhst.youtubelite.extractor.StreamCatalog;
-import com.hhst.youtubelite.player.LitePlayerView;
-import com.hhst.youtubelite.player.common.PlayerLoopMode;
-import com.hhst.youtubelite.player.common.PlayerPreferences;
-import com.hhst.youtubelite.player.common.PlayerUtils;
-import com.hhst.youtubelite.player.controller.gesture.PlayerGestureListener;
-import com.hhst.youtubelite.player.controller.gesture.ZoomTouchListener;
-import com.hhst.youtubelite.player.engine.Engine;
-import com.hhst.youtubelite.player.queue.QueueNav;
-import com.hhst.youtubelite.util.DeviceUtils;
-import com.hhst.youtubelite.util.ImageUtils;
-import com.hhst.youtubelite.util.UrlUtils;
-import com.hhst.youtubelite.util.ViewUtils;
+import com.rohit.acsyt.Constant;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.browser.TabManager;
+import com.rohit.acsyt.browser.YoutubeFragment;
+import com.rohit.acsyt.extension.ExtensionManager;
+import com.rohit.acsyt.extractor.StreamCatalog;
+import com.rohit.acsyt.player.LitePlayerView;
+import com.rohit.acsyt.player.common.PlayerLoopMode;
+import com.rohit.acsyt.player.common.PlayerPreferences;
+import com.rohit.acsyt.player.common.PlayerUtils;
+import com.rohit.acsyt.player.controller.gesture.PlayerGestureListener;
+import com.rohit.acsyt.player.controller.gesture.ZoomTouchListener;
+import com.rohit.acsyt.player.engine.Engine;
+import com.rohit.acsyt.player.queue.QueueNav;
+import com.rohit.acsyt.util.DeviceUtils;
+import com.rohit.acsyt.util.ImageUtils;
+import com.rohit.acsyt.util.UrlUtils;
+import com.rohit.acsyt.util.ViewUtils;
 
 import org.schabi.newpipe.extractor.stream.AudioStream;
 import org.schabi.newpipe.extractor.stream.StreamSegment;
@@ -418,7 +418,7 @@ public class Controller {
 			lockBtn.setOnClickListener(v -> {
 				toggleLockState();
 				showHint(activity.getString(state.isLocked() ? R.string.lock_screen : R.string.unlock_screen),
-								com.hhst.youtubelite.player.common.Constant.HINT_HIDE_DELAY_MS);
+								com.rohit.acsyt.player.common.Constant.HINT_HIDE_DELAY_MS);
 			});
 		}
 
@@ -439,7 +439,7 @@ public class Controller {
 			loopBtn.setOnClickListener(v -> {
 				PlayerLoopMode newMode = getLoopMode().next();
 				setLoopMode(newMode);
-				showHint(activity.getString(getLoopModeLabelRes(newMode)), com.hhst.youtubelite.player.common.Constant.HINT_HIDE_DELAY_MS);
+				showHint(activity.getString(getLoopModeLabelRes(newMode)), com.rohit.acsyt.player.common.Constant.HINT_HIDE_DELAY_MS);
 				setControlsVisible(true);
 			});
 		}
@@ -540,7 +540,7 @@ public class Controller {
 			subBtn.setOnClickListener(v -> {
 				List<String> available = engine.getSubtitles();
 				if (available.isEmpty()) {
-					showHint(activity.getString(R.string.no_subtitles), com.hhst.youtubelite.player.common.Constant.HINT_HIDE_DELAY_MS);
+					showHint(activity.getString(R.string.no_subtitles), com.rohit.acsyt.player.common.Constant.HINT_HIDE_DELAY_MS);
 					hideControlsAutomatically();
 					return;
 				}
@@ -550,11 +550,11 @@ public class Controller {
 				showSelectionPopup(subBtn, options, checked, (index, label) -> {
 					if (index == checked) {
 						engine.setSubtitlesEnabled(false);
-						showHint(activity.getString(R.string.subtitles_off), com.hhst.youtubelite.player.common.Constant.HINT_HIDE_DELAY_MS);
+						showHint(activity.getString(R.string.subtitles_off), com.rohit.acsyt.player.common.Constant.HINT_HIDE_DELAY_MS);
 					} else {
 						engine.setSubtitlesEnabled(true);
 						engine.setSubtitleLanguage(label);
-						showHint(activity.getString(R.string.subtitles_on) + ": " + label, com.hhst.youtubelite.player.common.Constant.HINT_HIDE_DELAY_MS);
+						showHint(activity.getString(R.string.subtitles_on) + ": " + label, com.rohit.acsyt.player.common.Constant.HINT_HIDE_DELAY_MS);
 					}
 					updateSubtitleButtonState();
 				});
@@ -575,7 +575,7 @@ public class Controller {
 				public void onSelected(int index, String label) {
 					StreamSegment segment = segments.get(index);
 					engine.seekTo(segment.getStartTimeSeconds() * 1000L);
-					showHint(activity.getString(R.string.jumped_to_segment, segment.getTitle()), com.hhst.youtubelite.player.common.Constant.HINT_HIDE_DELAY_MS);
+					showHint(activity.getString(R.string.jumped_to_segment, segment.getTitle()), com.rohit.acsyt.player.common.Constant.HINT_HIDE_DELAY_MS);
 				}
 
 				@Override
@@ -589,7 +589,7 @@ public class Controller {
 									segment.getPreviewUrl() != null ? segment.getPreviewUrl() : engine.getThumbnailUrl());
 					b.setView(v).setPositiveButton(R.string.jump, (d, w) -> {
 						engine.seekTo(segment.getStartTimeSeconds() * 1000L);
-						showHint(activity.getString(R.string.jumped_to_segment, segment.getTitle()), com.hhst.youtubelite.player.common.Constant.HINT_HIDE_DELAY_MS);
+						showHint(activity.getString(R.string.jumped_to_segment, segment.getTitle()), com.rohit.acsyt.player.common.Constant.HINT_HIDE_DELAY_MS);
 						hideControlsAutomatically();
 					}).setNegativeButton(R.string.close, null).show();
 				}
@@ -679,7 +679,7 @@ public class Controller {
 		}
 		new MaterialAlertDialogBuilder(activity).setTitle(R.string.audio_track).setAdapter(getAdapter(checked, options), (dialog, which) -> {
 			engine.setAudioTrack(audioTracks.get(which));
-			showHint(options[which], com.hhst.youtubelite.player.common.Constant.HINT_HIDE_DELAY_MS);
+			showHint(options[which], com.rohit.acsyt.player.common.Constant.HINT_HIDE_DELAY_MS);
 			hideControlsAutomatically();
 		}).setNegativeButton(R.string.cancel, null).show();
 	}
@@ -715,7 +715,7 @@ public class Controller {
 	private void showVideoDetails() {
 		StreamCatalog details = engine.getStreamCatalog();
 		if (details == null) {
-			showHint(activity.getString(R.string.unable_to_get_stream_info), com.hhst.youtubelite.player.common.Constant.HINT_HIDE_DELAY_MS);
+			showHint(activity.getString(R.string.unable_to_get_stream_info), com.rohit.acsyt.player.common.Constant.HINT_HIDE_DELAY_MS);
 			hideControlsAutomatically();
 			return;
 		}
@@ -724,7 +724,7 @@ public class Controller {
 		String[] info = {getVideoDetailsText(details)};
 		builder.setMessage(info[0]).setNeutralButton(R.string.copy, (dialog, which) -> {
 			DeviceUtils.copyToClipboard(activity, "Video Details", info[0]);
-			showHint(activity.getString(R.string.debug_info_copied), com.hhst.youtubelite.player.common.Constant.HINT_HIDE_DELAY_MS);
+			showHint(activity.getString(R.string.debug_info_copied), com.rohit.acsyt.player.common.Constant.HINT_HIDE_DELAY_MS);
 		});
 		AlertDialog dialog = builder.show();
 		hideControlsAutomatically();
@@ -1030,7 +1030,7 @@ public class Controller {
 		new MaterialAlertDialogBuilder(activity).setTitle(R.string.resize_mode).setAdapter(adapter, (d, w) -> {
 			playerView.setResizeMode(modes[w]);
 			prefs.setResizeMode(modes[w]);
-			showHint(opts[w], com.hhst.youtubelite.player.common.Constant.HINT_HIDE_DELAY_MS);
+			showHint(opts[w], com.rohit.acsyt.player.common.Constant.HINT_HIDE_DELAY_MS);
 			hideControlsAutomatically();
 		}).setNegativeButton(R.string.cancel, null).show();
 	}

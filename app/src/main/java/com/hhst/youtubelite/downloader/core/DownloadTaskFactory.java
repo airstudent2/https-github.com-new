@@ -1,11 +1,11 @@
-package com.hhst.youtubelite.downloader.core;
+package com.rohit.acsyt.downloader.core;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.hhst.youtubelite.extractor.PlaybackDetails;
-import com.hhst.youtubelite.extractor.StreamCatalog;
-import com.hhst.youtubelite.extractor.VideoDetails;
+import com.rohit.acsyt.extractor.PlaybackDetails;
+import com.rohit.acsyt.extractor.StreamCatalog;
+import com.rohit.acsyt.extractor.VideoDetails;
 
 import org.schabi.newpipe.extractor.MediaFormat;
 import org.schabi.newpipe.extractor.stream.AudioStream;

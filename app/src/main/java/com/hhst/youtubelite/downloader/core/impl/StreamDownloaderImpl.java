@@ -1,10 +1,10 @@
-package com.hhst.youtubelite.downloader.core.impl;
+package com.rohit.acsyt.downloader.core.impl;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.hhst.youtubelite.downloader.core.ProgressCallback;
-import com.hhst.youtubelite.downloader.core.StreamDownloader;
+import com.rohit.acsyt.downloader.core.ProgressCallback;
+import com.rohit.acsyt.downloader.core.StreamDownloader;
 import com.tencent.mmkv.MMKV;
 
 import java.io.File;

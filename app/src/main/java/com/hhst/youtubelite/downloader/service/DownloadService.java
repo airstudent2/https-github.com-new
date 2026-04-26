@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.downloader.service;
+package com.rohit.acsyt.downloader.service;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -16,17 +16,17 @@ import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 import androidx.media3.common.util.UnstableApi;
 
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.downloader.core.DownloadTaskIdHelper;
-import com.hhst.youtubelite.downloader.core.LiteDownloader;
-import com.hhst.youtubelite.downloader.core.ProgressCallback2;
-import com.hhst.youtubelite.downloader.core.Task;
-import com.hhst.youtubelite.downloader.core.history.DownloadHistoryRepository;
-import com.hhst.youtubelite.downloader.core.history.DownloadRecord;
-import com.hhst.youtubelite.downloader.core.history.DownloadStatus;
-import com.hhst.youtubelite.downloader.core.history.DownloadType;
-import com.hhst.youtubelite.ui.MainActivity;
-import com.hhst.youtubelite.util.DownloadStorageUtils;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.downloader.core.DownloadTaskIdHelper;
+import com.rohit.acsyt.downloader.core.LiteDownloader;
+import com.rohit.acsyt.downloader.core.ProgressCallback2;
+import com.rohit.acsyt.downloader.core.Task;
+import com.rohit.acsyt.downloader.core.history.DownloadHistoryRepository;
+import com.rohit.acsyt.downloader.core.history.DownloadRecord;
+import com.rohit.acsyt.downloader.core.history.DownloadStatus;
+import com.rohit.acsyt.downloader.core.history.DownloadType;
+import com.rohit.acsyt.ui.MainActivity;
+import com.rohit.acsyt.util.DownloadStorageUtils;
 
 import java.io.File;
 import java.util.LinkedHashMap;
@@ -45,7 +45,7 @@ import dagger.hilt.android.AndroidEntryPoint;
 @AndroidEntryPoint
 @UnstableApi
 public class DownloadService extends Service {
-	public static final String ACTION_DOWNLOAD_RECORD_UPDATED = "com.hhst.youtubelite.action.DOWNLOAD_RECORD_UPDATED";
+	public static final String ACTION_DOWNLOAD_RECORD_UPDATED = "com.rohit.acsyt.action.DOWNLOAD_RECORD_UPDATED";
 	public static final String EXTRA_TASK_ID = "extra_task_id";
 	private static final String CHANNEL_ID = "download_channel";
 	private static final int NOTIFICATION_ID = 1001;

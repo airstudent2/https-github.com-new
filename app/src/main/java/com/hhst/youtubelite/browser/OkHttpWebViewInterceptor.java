@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.browser;
+package com.rohit.acsyt.browser;
 
 import android.webkit.CookieManager;
 import android.webkit.WebResourceRequest;
@@ -8,9 +8,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.media3.common.util.UnstableApi;
 
-import com.hhst.youtubelite.cache.WebViewCachePolicy;
-import com.hhst.youtubelite.util.UrlUtils;
-import com.hhst.youtubelite.util.WebResourceUtils;
+import com.rohit.acsyt.cache.WebViewCachePolicy;
+import com.rohit.acsyt.util.UrlUtils;
+import com.rohit.acsyt.util.WebResourceUtils;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

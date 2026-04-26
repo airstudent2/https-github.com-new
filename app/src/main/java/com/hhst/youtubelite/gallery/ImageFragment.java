@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.gallery;
+package com.rohit.acsyt.gallery;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -15,9 +15,9 @@ import androidx.appcompat.widget.PopupMenu;
 import androidx.fragment.app.Fragment;
 
 import com.github.chrisbanes.photoview.PhotoView;
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.util.ImageUtils;
-import com.hhst.youtubelite.util.ToastUtils;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.util.ImageUtils;
+import com.rohit.acsyt.util.ToastUtils;
 import com.squareup.picasso.Callback;
 
 import dagger.hilt.android.AndroidEntryPoint;

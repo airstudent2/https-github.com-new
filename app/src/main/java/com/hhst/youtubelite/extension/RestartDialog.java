@@ -1,10 +1,10 @@
-package com.hhst.youtubelite.extension;
+package com.rohit.acsyt.extension;
 
 import android.content.Context;
 import android.content.Intent;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-import com.hhst.youtubelite.R;
+import com.rohit.acsyt.R;
 
 /**
  * Component that handles app logic.

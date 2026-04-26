@@ -1,11 +1,11 @@
-package com.hhst.youtubelite.util;
+package com.rohit.acsyt.util;
 
 import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.hhst.youtubelite.R;
+import com.rohit.acsyt.R;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 

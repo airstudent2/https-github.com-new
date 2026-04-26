@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.browser;
+package com.rohit.acsyt.browser;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,7 +6,7 @@ import androidx.annotation.Nullable;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.annotations.SerializedName;
-import com.hhst.youtubelite.player.queue.QueueItem;
+import com.rohit.acsyt.player.queue.QueueItem;
 
 import java.net.MalformedURLException;
 import java.net.URL;

@@ -1,8 +1,8 @@
-package com.hhst.youtubelite.player.controller;
+package com.rohit.acsyt.player.controller;
 
 import androidx.annotation.DrawableRes;
 
-import com.hhst.youtubelite.R;
+import com.rohit.acsyt.R;
 
 import java.util.Objects;
 

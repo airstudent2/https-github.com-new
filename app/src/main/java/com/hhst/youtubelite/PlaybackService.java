@@ -1,4 +1,4 @@
-package com.hhst.youtubelite;
+package com.rohit.acsyt;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -28,9 +28,9 @@ import androidx.media.app.NotificationCompat.MediaStyle;
 import androidx.media.session.MediaButtonReceiver;
 import androidx.media3.common.util.UnstableApi;
 
-import com.hhst.youtubelite.player.engine.Engine;
-import com.hhst.youtubelite.player.queue.QueueNav;
-import com.hhst.youtubelite.ui.MainActivity;
+import com.rohit.acsyt.player.engine.Engine;
+import com.rohit.acsyt.player.queue.QueueNav;
+import com.rohit.acsyt.ui.MainActivity;
 
 import java.io.InterruptedIOException;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.downloader.ui;
+package com.rohit.acsyt.downloader.ui;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -27,21 +27,21 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.media3.common.util.UnstableApi;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.downloader.core.DownloadPrefs;
-import com.hhst.youtubelite.downloader.core.DownloadSelectionConfig;
-import com.hhst.youtubelite.downloader.core.DownloadTaskFactory;
-import com.hhst.youtubelite.downloader.core.Task;
-import com.hhst.youtubelite.downloader.service.DownloadService;
-import com.hhst.youtubelite.extractor.ExtractionSession;
-import com.hhst.youtubelite.extractor.StreamCatalog;
-import com.hhst.youtubelite.extractor.VideoDetails;
-import com.hhst.youtubelite.extractor.YoutubeExtractor;
-import com.hhst.youtubelite.gallery.GalleryActivity;
-import com.hhst.youtubelite.util.DownloadStorageUtils;
-import com.hhst.youtubelite.util.ImageUtils;
-import com.hhst.youtubelite.util.PermissionUtils;
-import com.hhst.youtubelite.util.ToastUtils;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.downloader.core.DownloadPrefs;
+import com.rohit.acsyt.downloader.core.DownloadSelectionConfig;
+import com.rohit.acsyt.downloader.core.DownloadTaskFactory;
+import com.rohit.acsyt.downloader.core.Task;
+import com.rohit.acsyt.downloader.service.DownloadService;
+import com.rohit.acsyt.extractor.ExtractionSession;
+import com.rohit.acsyt.extractor.StreamCatalog;
+import com.rohit.acsyt.extractor.VideoDetails;
+import com.rohit.acsyt.extractor.YoutubeExtractor;
+import com.rohit.acsyt.gallery.GalleryActivity;
+import com.rohit.acsyt.util.DownloadStorageUtils;
+import com.rohit.acsyt.util.ImageUtils;
+import com.rohit.acsyt.util.PermissionUtils;
+import com.rohit.acsyt.util.ToastUtils;
 import com.tencent.mmkv.MMKV;
 
 import org.schabi.newpipe.extractor.MediaFormat;

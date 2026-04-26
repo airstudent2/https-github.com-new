@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.ui;
+package com.rohit.acsyt.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,9 +11,9 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.util.DeviceUtils;
-import com.hhst.youtubelite.util.ToastUtils;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.util.DeviceUtils;
+import com.rohit.acsyt.util.ToastUtils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.gallery;
+package com.rohit.acsyt.gallery;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -19,9 +19,9 @@ import androidx.lifecycle.Lifecycle;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.util.DownloadStorageUtils;
-import com.hhst.youtubelite.util.ToastUtils;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.util.DownloadStorageUtils;
+import com.rohit.acsyt.util.ToastUtils;
 
 import org.apache.commons.io.FileUtils;
 

@@ -1,11 +1,11 @@
-package com.hhst.youtubelite.di;
+package com.rohit.acsyt.di;
 
 import android.app.Activity;
 
 import androidx.media3.common.util.UnstableApi;
 
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.player.LitePlayerView;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.player.LitePlayerView;
 
 import dagger.Module;
 import dagger.Provides;

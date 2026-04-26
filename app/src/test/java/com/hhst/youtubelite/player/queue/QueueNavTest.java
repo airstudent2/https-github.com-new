@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player.queue;
+package com.rohit.acsyt.player.queue;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

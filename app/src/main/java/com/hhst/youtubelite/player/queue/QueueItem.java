@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player.queue;
+package com.rohit.acsyt.player.queue;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

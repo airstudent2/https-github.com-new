@@ -1,11 +1,11 @@
-package com.hhst.youtubelite.extractor;
+package com.rohit.acsyt.extractor;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.OptIn;
 import androidx.media3.common.util.UnstableApi;
 
-import com.hhst.youtubelite.player.common.PlayerUtils;
+import com.rohit.acsyt.player.common.PlayerUtils;
 
 import org.schabi.newpipe.extractor.stream.AudioStream;
 import org.schabi.newpipe.extractor.stream.AudioTrackType;

@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.browser;
+package com.rohit.acsyt.browser;
 
 import android.app.Activity;
 import android.util.Log;
@@ -12,11 +12,11 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 import androidx.media3.common.util.UnstableApi;
 
-import com.hhst.youtubelite.Constant;
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.extension.ExtensionManager;
-import com.hhst.youtubelite.player.LitePlayer;
-import com.hhst.youtubelite.util.UrlUtils;
+import com.rohit.acsyt.Constant;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.extension.ExtensionManager;
+import com.rohit.acsyt.player.LitePlayer;
+import com.rohit.acsyt.util.UrlUtils;
 
 import org.apache.commons.io.FilenameUtils;
 

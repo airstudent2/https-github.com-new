@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.extractor.potoken;
+package com.rohit.acsyt.extractor.potoken;
 
 /**
  * Session wrapper for PoToken collection.

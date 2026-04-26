@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.ui.queue;
+package com.rohit.acsyt.ui.queue;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,9 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.player.queue.QueueItem;
-import com.hhst.youtubelite.util.ImageUtils;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.player.queue.QueueItem;
+import com.rohit.acsyt.util.ImageUtils;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player.queue;
+package com.rohit.acsyt.player.queue;
 
 /**
  * Listener notified when queue data changes.

@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.downloader.ui;
+package com.rohit.acsyt.downloader.ui;
 
 import android.content.BroadcastReceiver;
 import android.content.ClipData;
@@ -45,18 +45,18 @@ import com.google.android.material.checkbox.MaterialCheckBox;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.imageview.ShapeableImageView;
 import com.google.android.material.progressindicator.LinearProgressIndicator;
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.downloader.core.DownloadTaskIdHelper;
-import com.hhst.youtubelite.downloader.core.history.DownloadHistoryRepository;
-import com.hhst.youtubelite.downloader.core.history.DownloadRecord;
-import com.hhst.youtubelite.downloader.core.history.DownloadStatus;
-import com.hhst.youtubelite.downloader.core.history.DownloadType;
-import com.hhst.youtubelite.downloader.service.DownloadService;
-import com.hhst.youtubelite.extractor.YoutubeExtractor;
-import com.hhst.youtubelite.util.DownloadStorageUtils;
-import com.hhst.youtubelite.util.ImageUtils;
-import com.hhst.youtubelite.util.PermissionUtils;
-import com.hhst.youtubelite.util.ToastUtils;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.downloader.core.DownloadTaskIdHelper;
+import com.rohit.acsyt.downloader.core.history.DownloadHistoryRepository;
+import com.rohit.acsyt.downloader.core.history.DownloadRecord;
+import com.rohit.acsyt.downloader.core.history.DownloadStatus;
+import com.rohit.acsyt.downloader.core.history.DownloadType;
+import com.rohit.acsyt.downloader.service.DownloadService;
+import com.rohit.acsyt.extractor.YoutubeExtractor;
+import com.rohit.acsyt.util.DownloadStorageUtils;
+import com.rohit.acsyt.util.ImageUtils;
+import com.rohit.acsyt.util.PermissionUtils;
+import com.rohit.acsyt.util.ToastUtils;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

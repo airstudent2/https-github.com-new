@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.extractor.exception;
+package com.rohit.acsyt.extractor.exception;
 
 import androidx.annotation.NonNull;
 

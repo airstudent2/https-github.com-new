@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.util;
+package com.rohit.acsyt.util;
 
 import android.Manifest;
 import android.annotation.SuppressLint;

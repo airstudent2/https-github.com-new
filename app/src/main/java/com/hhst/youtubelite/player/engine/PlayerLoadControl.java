@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player.engine;
+package com.rohit.acsyt.player.engine;
 
 import androidx.annotation.OptIn;
 import androidx.media3.common.util.UnstableApi;

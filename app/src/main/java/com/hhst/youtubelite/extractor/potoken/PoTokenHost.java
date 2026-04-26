@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.extractor.potoken;
+package com.rohit.acsyt.extractor.potoken;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -16,7 +16,7 @@ import androidx.annotation.Nullable;
 import androidx.webkit.WebSettingsCompat;
 import androidx.webkit.WebViewFeature;
 
-import com.hhst.youtubelite.util.StreamIOUtils;
+import com.rohit.acsyt.util.StreamIOUtils;
 
 import java.io.IOException;
 import java.io.InputStream;

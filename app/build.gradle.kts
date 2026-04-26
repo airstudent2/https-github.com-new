@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.hhst.youtubelite"
+    namespace = "com.rohit.acsyt"
     compileSdk = 36
 
     installation {

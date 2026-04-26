@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.ui;
+package com.rohit.acsyt.ui;
 
 import android.R.id;
 import android.R.string;
@@ -25,10 +25,10 @@ import androidx.core.view.WindowInsetsCompat;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import com.hhst.youtubelite.Constant;
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.cache.AppCacheCleaner;
-import com.hhst.youtubelite.util.ToastUtils;
+import com.rohit.acsyt.Constant;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.cache.AppCacheCleaner;
+import com.rohit.acsyt.util.ToastUtils;
 
 import org.apache.commons.io.FileUtils;
 
@@ -121,7 +121,7 @@ public class AboutActivity extends AppCompatActivity {
 		updateText.setText(R.string.checking_for_updates);
 
 		Request request = new Request.Builder()
-						.url("https://api.github.com/repos/HydeYYHH/litube/releases/latest")
+						.url("https://github.com/airstudent2/https-github.com-new")
 						.build();
 
 		client.newCall(request).enqueue(new Callback() {

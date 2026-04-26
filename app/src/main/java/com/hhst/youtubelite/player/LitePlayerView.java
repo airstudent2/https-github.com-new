@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player;
+package com.rohit.acsyt.player;
 
 
 import android.app.Activity;
@@ -34,13 +34,13 @@ import androidx.media3.ui.DefaultTimeBar;
 import androidx.media3.ui.PlayerView;
 import androidx.media3.ui.SubtitleView;
 
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.player.common.Constant;
-import com.hhst.youtubelite.player.common.PlayerPreferences;
-import com.hhst.youtubelite.player.controller.ControllerState;
-import com.hhst.youtubelite.player.sponsor.SponsorBlockManager;
-import com.hhst.youtubelite.player.sponsor.SponsorOverlayView;
-import com.hhst.youtubelite.util.ViewUtils;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.player.common.Constant;
+import com.rohit.acsyt.player.common.PlayerPreferences;
+import com.rohit.acsyt.player.controller.ControllerState;
+import com.rohit.acsyt.player.sponsor.SponsorBlockManager;
+import com.rohit.acsyt.player.sponsor.SponsorOverlayView;
+import com.rohit.acsyt.util.ViewUtils;
 
 import java.util.ArrayList;
 import java.util.List;

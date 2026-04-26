@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.extension;
+package com.rohit.acsyt.extension;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,7 +23,7 @@ import androidx.recyclerview.widget.SimpleItemAnimator;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.switchmaterial.SwitchMaterial;
-import com.hhst.youtubelite.R;
+import com.rohit.acsyt.R;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

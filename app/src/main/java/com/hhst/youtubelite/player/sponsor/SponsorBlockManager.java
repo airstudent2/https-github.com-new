@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player.sponsor;
+package com.rohit.acsyt.player.sponsor;
 
 import android.util.Log;
 
@@ -9,7 +9,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.hhst.youtubelite.player.common.PlayerPreferences;
+import com.rohit.acsyt.player.common.PlayerPreferences;
 
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;

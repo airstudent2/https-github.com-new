@@ -177,7 +177,7 @@
                         app:scrubber_color="@color/yt_red"
                         app:unplayed_color="#99FFFFFF" />
 
-                    <com.hhst.youtubelite.player.sponsor.SponsorOverlayView
+                    <com.rohit.acsyt.player.sponsor.SponsorOverlayView
                         android:id="@+id/sponsor_overlay"
                         android:layout_width="match_parent"
                         android:layout_height="2dp"

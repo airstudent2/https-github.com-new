@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.ui;
+package com.rohit.acsyt.ui;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,15 +13,15 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.media3.common.util.UnstableApi;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.browser.MediaItemMenuPayload;
-import com.hhst.youtubelite.downloader.ui.DownloadDialog;
-import com.hhst.youtubelite.extractor.YoutubeExtractor;
-import com.hhst.youtubelite.gallery.GalleryActivity;
-import com.hhst.youtubelite.player.LitePlayer;
-import com.hhst.youtubelite.player.queue.QueueItem;
-import com.hhst.youtubelite.player.queue.QueueRepository;
-import com.hhst.youtubelite.util.ToastUtils;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.browser.MediaItemMenuPayload;
+import com.rohit.acsyt.downloader.ui.DownloadDialog;
+import com.rohit.acsyt.extractor.YoutubeExtractor;
+import com.rohit.acsyt.gallery.GalleryActivity;
+import com.rohit.acsyt.player.LitePlayer;
+import com.rohit.acsyt.player.queue.QueueItem;
+import com.rohit.acsyt.player.queue.QueueRepository;
+import com.rohit.acsyt.util.ToastUtils;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

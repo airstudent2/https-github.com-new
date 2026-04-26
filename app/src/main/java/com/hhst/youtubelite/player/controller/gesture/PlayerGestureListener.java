@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player.controller.gesture;
+package com.rohit.acsyt.player.controller.gesture;
 
 import android.app.Activity;
 import android.content.Context;
@@ -13,12 +13,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.media3.common.util.UnstableApi;
 
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.extension.Constant;
-import com.hhst.youtubelite.player.LitePlayerView;
-import com.hhst.youtubelite.player.controller.Controller;
-import com.hhst.youtubelite.player.engine.Engine;
-import com.hhst.youtubelite.util.DeviceUtils;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.extension.Constant;
+import com.rohit.acsyt.player.LitePlayerView;
+import com.rohit.acsyt.player.controller.Controller;
+import com.rohit.acsyt.player.engine.Engine;
+import com.rohit.acsyt.util.DeviceUtils;
 
 import java.util.Locale;
 

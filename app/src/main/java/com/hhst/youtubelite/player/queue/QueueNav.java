@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player.queue;
+package com.rohit.acsyt.player.queue;
 
 /**
  * Helper that finds the next queue item to play.

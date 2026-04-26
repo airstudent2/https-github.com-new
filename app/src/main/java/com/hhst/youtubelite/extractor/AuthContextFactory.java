@@ -1,12 +1,12 @@
-package com.hhst.youtubelite.extractor;
+package com.rohit.acsyt.extractor;
 
 import android.webkit.CookieManager;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.hhst.youtubelite.extractor.potoken.PoTokenContextStore;
-import com.hhst.youtubelite.extractor.potoken.PoTokenWebViewContext;
+import com.rohit.acsyt.extractor.potoken.PoTokenContextStore;
+import com.rohit.acsyt.extractor.potoken.PoTokenWebViewContext;
 
 import javax.inject.Inject;
 import javax.inject.Singleton;

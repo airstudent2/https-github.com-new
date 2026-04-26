@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player.engine;
+package com.rohit.acsyt.player.engine;
 
 import android.net.Uri;
 import android.util.Log;
@@ -20,10 +20,10 @@ import androidx.media3.extractor.ExtractorsFactory;
 import androidx.media3.extractor.text.DefaultSubtitleParserFactory;
 import androidx.media3.extractor.text.SubtitleExtractor;
 
-import com.hhst.youtubelite.extractor.PlaybackDetails;
-import com.hhst.youtubelite.extractor.PlaybackPlan;
-import com.hhst.youtubelite.extractor.StreamCandidate;
-import com.hhst.youtubelite.extractor.VideoDetails;
+import com.rohit.acsyt.extractor.PlaybackDetails;
+import com.rohit.acsyt.extractor.PlaybackPlan;
+import com.rohit.acsyt.extractor.StreamCandidate;
+import com.rohit.acsyt.extractor.VideoDetails;
 
 import org.schabi.newpipe.extractor.services.youtube.dashmanifestcreators.YoutubeProgressiveDashManifestCreator;
 import org.schabi.newpipe.extractor.stream.Stream;

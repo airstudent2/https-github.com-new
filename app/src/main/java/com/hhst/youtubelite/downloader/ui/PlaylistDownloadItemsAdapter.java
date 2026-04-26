@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.downloader.ui;
+package com.rohit.acsyt.downloader.ui;
 
 import android.util.TypedValue;
 import android.view.LayoutInflater;
@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.checkbox.MaterialCheckBox;
 import com.google.android.material.imageview.ShapeableImageView;
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.util.ImageUtils;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.util.ImageUtils;
 
 import java.util.ArrayList;
 import java.util.List;

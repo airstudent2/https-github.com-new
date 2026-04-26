@@ -1,11 +1,11 @@
-package com.hhst.youtubelite.util;
+package com.rohit.acsyt.util;
 
 import android.net.Uri;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.hhst.youtubelite.Constant;
+import com.rohit.acsyt.Constant;
 
 import java.net.URI;
 import java.util.List;

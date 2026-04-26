@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.downloader.ui;
+package com.rohit.acsyt.downloader.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.media3.common.util.UnstableApi;
 
-import com.hhst.youtubelite.ui.MainActivity;
+import com.rohit.acsyt.ui.MainActivity;
 
 /**
  * Component that handles app logic.

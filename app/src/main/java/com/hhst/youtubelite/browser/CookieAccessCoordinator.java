@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.browser;
+package com.rohit.acsyt.browser;
 
 import android.webkit.CookieManager;
 

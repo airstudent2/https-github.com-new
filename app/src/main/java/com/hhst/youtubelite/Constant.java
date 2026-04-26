@@ -1,4 +1,4 @@
-package com.hhst.youtubelite;
+package com.rohit.acsyt;
 
 /**
  * Shared constants used across the app.

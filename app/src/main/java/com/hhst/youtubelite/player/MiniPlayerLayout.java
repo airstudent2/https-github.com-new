@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player;
+package com.rohit.acsyt.player;
 
 /**
  * Computes mini-player dimensions and spacing.

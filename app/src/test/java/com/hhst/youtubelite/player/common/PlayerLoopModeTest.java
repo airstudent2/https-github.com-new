@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player.common;
+package com.rohit.acsyt.player.common;
 
 import static org.junit.Assert.assertEquals;
 

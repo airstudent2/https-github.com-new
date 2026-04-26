@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="12dp">
 
-                <com.hhst.youtubelite.ui.widget.NestedScrollableTextInputEditText
+                <com.rohit.acsyt.ui.widget.NestedScrollableTextInputEditText
                     android:id="@+id/download_edit_text"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

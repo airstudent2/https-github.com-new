@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player.controller.gesture;
+package com.rohit.acsyt.player.controller.gesture;
 
 import android.app.Activity;
 import android.view.MotionEvent;
@@ -8,7 +8,7 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.media3.common.util.UnstableApi;
 
-import com.hhst.youtubelite.player.LitePlayerView;
+import com.rohit.acsyt.player.LitePlayerView;
 
 import java.util.function.Consumer;
 

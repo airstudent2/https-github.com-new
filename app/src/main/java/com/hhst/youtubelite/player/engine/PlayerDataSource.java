@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player.engine;
+package com.rohit.acsyt.player.engine;
 
 import android.util.Log;
 
@@ -16,8 +16,8 @@ import androidx.media3.exoplayer.dash.DefaultDashChunkSource;
 import androidx.media3.exoplayer.hls.HlsMediaSource;
 import androidx.media3.exoplayer.source.ProgressiveMediaSource;
 
-import com.hhst.youtubelite.Constant;
-import com.hhst.youtubelite.player.engine.datasource.YoutubeHttpDataSource;
+import com.rohit.acsyt.Constant;
+import com.rohit.acsyt.player.engine.datasource.YoutubeHttpDataSource;
 
 import org.schabi.newpipe.extractor.services.youtube.dashmanifestcreators.YoutubeOtfDashManifestCreator;
 import org.schabi.newpipe.extractor.services.youtube.dashmanifestcreators.YoutubePostLiveStreamDvrDashManifestCreator;

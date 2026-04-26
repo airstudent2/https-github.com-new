@@ -2,7 +2,7 @@
  * Based on ExoPlayer's DefaultHttpDataSource.
  */
 
-package com.hhst.youtubelite.player.engine.datasource;
+package com.rohit.acsyt.player.engine.datasource;
 
 import static androidx.media3.datasource.DefaultHttpDataSource.DEFAULT_CONNECT_TIMEOUT_MILLIS;
 import static androidx.media3.datasource.DefaultHttpDataSource.DEFAULT_READ_TIMEOUT_MILLIS;
@@ -34,7 +34,7 @@ import androidx.media3.datasource.HttpUtil;
 import com.google.common.base.Preconditions;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.net.HttpHeaders;
-import com.hhst.youtubelite.util.StreamIOUtils;
+import com.rohit.acsyt.util.StreamIOUtils;
 
 import java.io.IOException;
 import java.io.InputStream;

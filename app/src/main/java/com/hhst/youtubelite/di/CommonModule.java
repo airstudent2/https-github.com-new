@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.di;
+package com.rohit.acsyt.di;
 
 import android.content.Context;
 
@@ -9,7 +9,7 @@ import androidx.media3.datasource.cache.LeastRecentlyUsedCacheEvictor;
 import androidx.media3.datasource.cache.SimpleCache;
 
 import com.google.gson.Gson;
-import com.hhst.youtubelite.cache.WebViewCachePolicy;
+import com.rohit.acsyt.cache.WebViewCachePolicy;
 import com.tencent.mmkv.MMKV;
 
 import java.io.File;

@@ -1,15 +1,15 @@
-package com.hhst.youtubelite.extension;
+package com.rohit.acsyt.extension;
 
-import static com.hhst.youtubelite.Constant.ENABLE_BACKGROUND_PLAY;
-import static com.hhst.youtubelite.Constant.ENABLE_IN_APP_MINI_PLAYER;
-import static com.hhst.youtubelite.Constant.ENABLE_PIP;
-import static com.hhst.youtubelite.Constant.REMEMBER_LAST_POSITION;
-import static com.hhst.youtubelite.Constant.REMEMBER_RESIZE_MODE;
-import static com.hhst.youtubelite.Constant.SKIP_POI_HIGHLIGHT;
-import static com.hhst.youtubelite.Constant.SKIP_SELF_PROMO;
-import static com.hhst.youtubelite.Constant.SKIP_SPONSORS;
+import static com.rohit.acsyt.Constant.ENABLE_BACKGROUND_PLAY;
+import static com.rohit.acsyt.Constant.ENABLE_IN_APP_MINI_PLAYER;
+import static com.rohit.acsyt.Constant.ENABLE_PIP;
+import static com.rohit.acsyt.Constant.REMEMBER_LAST_POSITION;
+import static com.rohit.acsyt.Constant.REMEMBER_RESIZE_MODE;
+import static com.rohit.acsyt.Constant.SKIP_POI_HIGHLIGHT;
+import static com.rohit.acsyt.Constant.SKIP_SELF_PROMO;
+import static com.rohit.acsyt.Constant.SKIP_SPONSORS;
 
-import com.hhst.youtubelite.R;
+import com.rohit.acsyt.R;
 
 import java.util.List;
 

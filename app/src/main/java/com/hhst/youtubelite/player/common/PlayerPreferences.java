@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player.common;
+package com.rohit.acsyt.player.common;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,8 +6,8 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
 import com.google.gson.Gson;
-import com.hhst.youtubelite.Constant;
-import com.hhst.youtubelite.extension.ExtensionManager;
+import com.rohit.acsyt.Constant;
+import com.rohit.acsyt.extension.ExtensionManager;
 import com.tencent.mmkv.MMKV;
 
 import java.util.HashSet;
@@ -64,26 +64,26 @@ public final class PlayerPreferences {
 	}
 
 	public float getSpeed() {
-		boolean enabled = extensionManager.isEnabled(com.hhst.youtubelite.extension.Constant.REMEMBER_PLAYBACK_SPEED);
+		boolean enabled = extensionManager.isEnabled(com.rohit.acsyt.extension.Constant.REMEMBER_PLAYBACK_SPEED);
 		if (!enabled) return DEFAULT_SPEED;
 		return mmkv.getFloat(KEY_PLAYBACK_SPEED, DEFAULT_SPEED);
 	}
 
 	public void setSpeed(float speed) {
-		boolean enabled = extensionManager.isEnabled(com.hhst.youtubelite.extension.Constant.REMEMBER_PLAYBACK_SPEED);
+		boolean enabled = extensionManager.isEnabled(com.rohit.acsyt.extension.Constant.REMEMBER_PLAYBACK_SPEED);
 		if (!enabled) return;
 		mmkv.encode(KEY_PLAYBACK_SPEED, speed);
 	}
 
 	@NonNull
 	public String getQuality() {
-		boolean enabled = extensionManager.isEnabled(com.hhst.youtubelite.extension.Constant.REMEMBER_QUALITY);
+		boolean enabled = extensionManager.isEnabled(com.rohit.acsyt.extension.Constant.REMEMBER_QUALITY);
 		if (!enabled) return DEFAULT_QUALITY;
 		return mmkv.decodeString(KEY_VIDEO_QUALITY, DEFAULT_QUALITY);
 	}
 
 	public void setQuality(@NonNull String quality) {
-		boolean enabled = extensionManager.isEnabled(com.hhst.youtubelite.extension.Constant.REMEMBER_QUALITY);
+		boolean enabled = extensionManager.isEnabled(com.rohit.acsyt.extension.Constant.REMEMBER_QUALITY);
 		if (!enabled) return;
 		mmkv.encode(KEY_VIDEO_QUALITY, quality);
 	}

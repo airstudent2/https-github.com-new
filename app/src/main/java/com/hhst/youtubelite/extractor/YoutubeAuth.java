@@ -1,9 +1,9 @@
-package com.hhst.youtubelite.extractor;
+package com.rohit.acsyt.extractor;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.hhst.youtubelite.Constant;
+import com.rohit.acsyt.Constant;
 
 import java.net.URI;
 import java.security.MessageDigest;

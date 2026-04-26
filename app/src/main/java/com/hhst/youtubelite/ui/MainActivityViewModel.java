@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.ui;
+package com.rohit.acsyt.ui;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -6,13 +6,13 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MediatorLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.hhst.youtubelite.player.PlayerState;
-import com.hhst.youtubelite.player.PlayerStateStore;
-import com.hhst.youtubelite.player.common.PlayerLoopMode;
-import com.hhst.youtubelite.player.common.PlayerPreferences;
-import com.hhst.youtubelite.player.queue.QueueItem;
-import com.hhst.youtubelite.player.queue.QueueRepository;
-import com.hhst.youtubelite.player.queue.QueueState;
+import com.rohit.acsyt.player.PlayerState;
+import com.rohit.acsyt.player.PlayerStateStore;
+import com.rohit.acsyt.player.common.PlayerLoopMode;
+import com.rohit.acsyt.player.common.PlayerPreferences;
+import com.rohit.acsyt.player.queue.QueueItem;
+import com.rohit.acsyt.player.queue.QueueRepository;
+import com.rohit.acsyt.player.queue.QueueState;
 
 import java.util.ArrayList;
 import java.util.List;

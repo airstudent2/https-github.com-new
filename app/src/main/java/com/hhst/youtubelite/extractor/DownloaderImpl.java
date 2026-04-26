@@ -1,11 +1,11 @@
-package com.hhst.youtubelite.extractor;
+package com.rohit.acsyt.extractor;
 
 import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.hhst.youtubelite.Constant;
+import com.rohit.acsyt.Constant;
 
 import org.schabi.newpipe.extractor.downloader.Downloader;
 import org.schabi.newpipe.extractor.exceptions.ReCaptchaException;

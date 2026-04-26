@@ -1,10 +1,10 @@
-package com.hhst.youtubelite.extractor;
+package com.rohit.acsyt.extractor;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.google.gson.Gson;
-import com.hhst.youtubelite.extractor.potoken.LitePoTokenProvider;
+import com.rohit.acsyt.extractor.potoken.LitePoTokenProvider;
 
 import org.schabi.newpipe.extractor.Image;
 import org.schabi.newpipe.extractor.MediaFormat;

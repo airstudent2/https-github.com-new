@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.player.sponsor;
+package com.rohit.acsyt.player.sponsor;
 
 import android.content.Context;
 import android.graphics.Canvas;

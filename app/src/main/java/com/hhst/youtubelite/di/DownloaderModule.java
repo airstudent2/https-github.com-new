@@ -1,9 +1,9 @@
-package com.hhst.youtubelite.di;
+package com.rohit.acsyt.di;
 
-import com.hhst.youtubelite.downloader.core.LiteDownloader;
-import com.hhst.youtubelite.downloader.core.StreamDownloader;
-import com.hhst.youtubelite.downloader.core.impl.LiteDownloaderImpl;
-import com.hhst.youtubelite.downloader.core.impl.StreamDownloaderImpl;
+import com.rohit.acsyt.downloader.core.LiteDownloader;
+import com.rohit.acsyt.downloader.core.StreamDownloader;
+import com.rohit.acsyt.downloader.core.impl.LiteDownloaderImpl;
+import com.rohit.acsyt.downloader.core.impl.StreamDownloaderImpl;
 
 import javax.inject.Singleton;
 

@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.util;
+package com.rohit.acsyt.util;
 
 import android.content.ContentResolver;
 import android.content.ContentValues;
@@ -15,7 +15,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.core.content.FileProvider;
 
-import com.hhst.youtubelite.R;
+import com.rohit.acsyt.R;
 
 import org.apache.commons.io.FileUtils;
 

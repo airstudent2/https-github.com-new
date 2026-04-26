@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.extractor.potoken;
+package com.rohit.acsyt.extractor.potoken;
 
 import android.os.Looper;
 
@@ -8,9 +8,9 @@ import androidx.annotation.Nullable;
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonParser;
-import com.hhst.youtubelite.extractor.AuthContext;
-import com.hhst.youtubelite.extractor.ExtractionSession;
-import com.hhst.youtubelite.extractor.ExtractionSessionScope;
+import com.rohit.acsyt.extractor.AuthContext;
+import com.rohit.acsyt.extractor.ExtractionSession;
+import com.rohit.acsyt.extractor.ExtractionSessionScope;
 import com.tencent.mmkv.MMKV;
 
 import org.schabi.newpipe.extractor.localization.ContentCountry;

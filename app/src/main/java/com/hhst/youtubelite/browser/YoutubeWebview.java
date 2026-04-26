@@ -1,4 +1,4 @@
-package com.hhst.youtubelite.browser;
+package com.rohit.acsyt.browser;
 
 import android.annotation.SuppressLint;
 import android.content.ActivityNotFoundException;
@@ -27,22 +27,22 @@ import androidx.annotation.Nullable;
 import androidx.media3.common.util.Consumer;
 import androidx.media3.common.util.UnstableApi;
 
-import com.hhst.youtubelite.Constant;
-import com.hhst.youtubelite.R;
-import com.hhst.youtubelite.cache.WebViewCachePolicy;
-import com.hhst.youtubelite.extension.ExtensionManager;
-import com.hhst.youtubelite.extractor.YoutubeExtractor;
-import com.hhst.youtubelite.extractor.potoken.PoTokenContextStore;
-import com.hhst.youtubelite.extractor.potoken.PoTokenJsonUtils;
-import com.hhst.youtubelite.extractor.potoken.PoTokenWebViewContext;
-import com.hhst.youtubelite.player.LitePlayer;
-import com.hhst.youtubelite.player.queue.QueueRepository;
-import com.hhst.youtubelite.ui.MainActivity;
-import com.hhst.youtubelite.ui.widget.LoadingProgressBar;
-import com.hhst.youtubelite.util.StreamIOUtils;
-import com.hhst.youtubelite.util.ToastUtils;
-import com.hhst.youtubelite.util.UrlUtils;
-import com.hhst.youtubelite.util.ViewUtils;
+import com.rohit.acsyt.Constant;
+import com.rohit.acsyt.R;
+import com.rohit.acsyt.cache.WebViewCachePolicy;
+import com.rohit.acsyt.extension.ExtensionManager;
+import com.rohit.acsyt.extractor.YoutubeExtractor;
+import com.rohit.acsyt.extractor.potoken.PoTokenContextStore;
+import com.rohit.acsyt.extractor.potoken.PoTokenJsonUtils;
+import com.rohit.acsyt.extractor.potoken.PoTokenWebViewContext;
+import com.rohit.acsyt.player.LitePlayer;
+import com.rohit.acsyt.player.queue.QueueRepository;
+import com.rohit.acsyt.ui.MainActivity;
+import com.rohit.acsyt.ui.widget.LoadingProgressBar;
+import com.rohit.acsyt.util.StreamIOUtils;
+import com.rohit.acsyt.util.ToastUtils;
+import com.rohit.acsyt.util.UrlUtils;
+import com.rohit.acsyt.util.ViewUtils;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
